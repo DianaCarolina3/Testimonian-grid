@@ -1,0 +1,14 @@
+main {
+  margin: 20px;
+}
+.container {
+  grid-template-columns: repeat(2, 360px);
+  justify-content: center;
+}
+.card-5 {
+  grid-area: 1 / 2 / 3 / 2;
+}
+.card-backoground {
+  top: 30px;
+  left: 240px;
+}

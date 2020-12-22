@@ -1,0 +1,143 @@
+:root {
+  /* colors primary */
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --violet-claro: rgb(167, 117, 242);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  /* colors neutral */
+  --Light-gray: hsl(0deg 0% 77% / 98%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+  /* fonts */
+  --font-size-moderate: 1.3rem;
+  --font-size-big: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #e5ecf4;
+}
+
+main {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  justify-content: center;
+}
+.main-card {
+  margin: 10px 15px;
+  padding: 20px;
+  height: auto;
+  border-radius: 6px;
+}
+.card-profile {
+  width: 200px;
+  margin-bottom: 15px;
+}
+.card-1 {
+  background: var(--Moderate-violet);
+}
+.card-backoground {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 160px;
+}
+.card-2 {
+  background: var(--Very-dark-grayish-blue);
+}
+.card-3 {
+  background: #ffffff;
+}
+.card-4 {
+  background: var(--Very-dark-blackish-blue);
+}
+.card-5 {
+  background: #ffffff;
+}
+
+.card-profile {
+  z-index: 2;
+  position: relative;
+}
+.card-image-profile {
+  margin: 0 15px 0 0;
+  padding: 0;
+  float: left;
+}
+.card-image-profile img {
+  width: 30px;
+  border-radius: 50px;
+}
+.card-1 .image-profile {
+  border: 2px solid var(--violet-claro);
+}
+.card-4 img {
+  border: 2px solid var(--Moderate-violet);
+}
+
+.card-profile .card-name-profile {
+  font-size: var(--font-size-moderate);
+  color: var(--White);
+}
+.card-3 .card-name-profile {
+  color: var(--Very-dark-blackish-blue);
+}
+.card-5 .card-name-profile {
+  color: var(--Very-dark-blackish-blue);
+}
+
+.card-profile .card-verified {
+  font-size: 1.1rem;
+  color: var(--Light-gray);
+}
+.card-3 .card-verified {
+  color: var(--Very-dark-grayish-blue);
+}
+.card-5 .card-verified {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.testimonian {
+  text-align: left;
+}
+.testimonian h3 {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: var(--font-size-big);
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: var(--White);
+}
+.card-3 h3 {
+  color: var(--Very-dark-grayish-blue);
+}
+.card-5 h3 {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.testimonian-verified {
+  font-size: var(--font-size-moderate);
+  font-weight: lighter;
+  color: var(--Light-gray);
+}
+.card-3 .testimonian-verified {
+  color: var(--Very-dark-grayish-blue);
+}
+.card-5 .testimonian-verified {
+  color: var(--Very-dark-grayish-blue);
+}
