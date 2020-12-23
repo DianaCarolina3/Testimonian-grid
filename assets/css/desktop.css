@@ -4,6 +4,8 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  height: 600px;
+  width: 1800px;
 }
 
 .card-1 {
