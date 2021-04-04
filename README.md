@@ -1,2 +1,2 @@
-# Testimonian-Practice-Grid
-This is a practice of CSS Gric
+# Testimonian-Grid
+Using css grid
